@@ -75,6 +75,8 @@ dateModified: "2016-02-03 14:58:40"
 ***
 ![Drink Friday Project 002](https://user-images.githubusercontent.com/61396761/131393628-86c0b594-ac5f-47fb-8e6c-6e9e74bb24e2.jpeg)
 ***
+![Drink Friday Project 003](https://user-images.githubusercontent.com/61396761/131395172-7abc7cfb-8462-4a27-8aa1-3fcf2b1b5a63.jpeg)
+***
 ![Drink Friday Project 003](https://user-images.githubusercontent.com/61396761/131393636-7ccfdb04-6e28-4059-a172-c0f2ee064b8c.jpeg)
 ***
 
