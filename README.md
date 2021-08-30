@@ -70,9 +70,13 @@ dateModified: "2016-02-03 14:58:40"
 }
 ```
 ## Wireframes
-![Drink Friday Project 001](https://user-images.githubusercontent.com/61396761/131391167-8feefcdb-6b1d-497c-9d1e-194dfe4f95ac.jpeg)
-![Drink Friday Project 002](https://user-images.githubusercontent.com/61396761/131391174-785b0382-6f81-44ca-ac8b-c8d74adb51ad.jpeg)
-
+***
+![Drink Friday Project 001](https://user-images.githubusercontent.com/61396761/131393618-ba263d93-d837-4a2a-899b-2e0494dabffe.jpeg)
+***
+![Drink Friday Project 002](https://user-images.githubusercontent.com/61396761/131393628-86c0b594-ac5f-47fb-8e6c-6e9e74bb24e2.jpeg)
+***
+![Drink Friday Project 003](https://user-images.githubusercontent.com/61396761/131393636-7ccfdb04-6e28-4059-a172-c0f2ee064b8c.jpeg)
+***
 
 
 <!-- 
@@ -82,36 +86,36 @@ The functionality will then be divided into two separate lists: MPV and PostMVP.
 
 #### MVP 
 <!-- *These are examples only. Replace with your own MVP features.* -->
-
+***
 - Find and use external api 
 - Using Css, HTML, JAVASCRIPT 
 - Using axios for the API
 - Render data on page 
 - Allow user to choose or search a cocktail
 - Having a responsive design (grid and flexbox)
-
+***
 #### PostMVP  
 <!-- *These are examples only. Replace with your own Post-MVP features.* -->
-
+***
 - Add second API or propably I am going to have multiple API s
 - Use local storage to save pictures and update and delete the pictures
 - having a simple animation to make the website more Interactive 
 - add some features like hovering over stuff 
-
+***
 ## Priority Matrix
 
 <!-- Include a full list of features that have been prioritized based on the `Time and Importance` Matrix.  Link this image in a similar manner to your wireframes -->
 
-
+***
 ![Drink Friday Project 003](https://user-images.githubusercontent.com/61396761/131391303-15ee07a1-cb2a-4908-a123-5329eb1b43c2.jpeg)
-
+***
 
 
 
 
 
 ## Timeframes
-
+***
 | Component | Priority | Estimated Time | Time Invested | Actual Time |
 | --- | :---: |  :---: | :---: | :---: |
 | Project pitch | H | 3hrs| N/A | N/A |
@@ -125,6 +129,7 @@ The functionality will then be divided into two separate lists: MPV and PostMVP.
 | Animation | L | 3hrs| N/A | N/A |
 | Wireframes/Logo Design | L | 3hrs| N/A | N/A |
 | Total | H | 30hrs| N/A | N/A |
+***
 
 ## Code Snippet
 
