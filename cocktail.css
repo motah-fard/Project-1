@@ -1,0 +1,36 @@
+body {
+    display:grid;
+    place-content:center;
+    background:rgb(45, 46, 45);
+} 
+div {
+    color: red;
+    border: 1px solid black;
+    box-sizing: border-box;
+    min-width: 100px;
+    min-height: 100px;
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    height: 200px;
+}
+
+.long {
+    height: 200px;
+}
+
+@media screen and (max-width: 768px) {
+    #grid {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+@media screen and (max-width: 425px) {
+    #grid {
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+}
