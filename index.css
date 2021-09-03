@@ -98,7 +98,7 @@ a {
     color: white;
     /* text-align: center; */
     font-family: 'Great Vibes' , cursive;
-    font-size: 18px;
+    font-size: 25px;
 }
 a:hover {
     transform: scale(1.5);
@@ -209,6 +209,9 @@ footer {
         width: 25vw;
         height: 25vw;
     }
+    a {
+        font-size: 17px;
+    }
 }
 @media screen and (max-width: 600px) {
     #grid {
@@ -219,6 +222,9 @@ footer {
     img {
         width: 25vw;
         height: 25vw;
+    }
+    a {
+        font-size: 10px;
     }
 }
 
@@ -230,8 +236,11 @@ footer {
         margin-left: center;
     }
     img {
-        width: 25vw;
-        height: 25vw;
+        width: 33vw;
+        height: 33vw;
+    }
+    a {
+        font-size: 18px;
     }
 }
 
