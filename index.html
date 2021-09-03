@@ -8,11 +8,38 @@
     <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
     <script defer src="index.js"></script>
     <link rel="stylesheet" href="index.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Allison&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <!-- <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin> -->
+    <link href="https://fonts.googleapis.com/css2?family=Allison&family=Parisienne&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <!-- <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin> -->
+    <link href="https://fonts.googleapis.com/css2?family=Allison&family=Great+Vibes&family=Parisienne&display=swap" rel="stylesheet">
     <title>Cocktail Recipes</title>
 </head>
 <body>
+    <!-- <ul>
+        <li><a href="default.asp">Home</a></li>
+        <li><a href="news.asp">News</a></li>
+        <li><a href="contact.asp">Contact</a></li>
+        <li><a href="about.asp">About</a></li>
+    </ul> -->
+    <nav class="topnav">
+        <a class="active" href="#home">Home</a>
+        <a href="#about">About</a>
+        <a href="#contact">Contact</a>
+
+    </nav>
     <h1>Drink Friday</h1>
-    <div>
+    
+    
+    <nav class="buttons">
+        
+        <button id = "alcoholic" > Alcoholic</button>
+        <button id = "nonAlcoholic"> Non Alcoholic</button>
+        <button id = "optionAlcoholic"> Optional Alcoholic</button>
         <form id="cocktail-form">
             <input 
             type="text" 
@@ -20,62 +47,39 @@
             placeholder="Find Cocktail"
             id="cocktail-search"
             />
-            <input 
+            <input
             type="submit" 
             placeholder="Get Cocktail"
+            onclick=""
             id="cocktail-get"
             />
         </form>
-    </div>
-    <div 
-    style="margin-top: 25px;"
-    id="cocktail-data">
-    </div>
-    <nav>
-        <div class="topnav">
-            <button id = "alcoholic" > Alcoholic</button>
-            <button id = "nonAlcoholic"> Non Alcoholic</button>
-            <button id = "optionAlcoholic"> Optional Alcoholic</button>
-        </div>
+    
 
     </nav>
-    <!-- <section id ="grid"></section> -->
-    <div class = "grid">
-        <!-- <section>
-                <article class="column">
-                <div>1</div>
-                <div>2</div>
-                <div>3</div>
-                <div>4</div>
-                <div class="long">5</div>
-                <div>6</div>
-                </article>
-                <article class="column">
-                <div>1</div>
-                <div class="long">2</div>
-                <div>3</div>
-                <div>4</div>
-                <div>5</div>
-                <div>6</div>
-                </article>
-                <article class="column">
-                <div class="long">1</div>
-                <div>2</div>
-                <div>3</div>
-                <div class="long">4</div>
-                <div>5</div>
-                <div>6</div>
-                </article>
-                <article class="column">
-                <div>1</div>
-                <div>2</div>
-                <div class="long">3</div>
-                <div>4</div>
-                <div>5</div>
-                <div>6</div>
-                </article>
-        </section> -->
+    <div 
+    style="margin-top: 5px;"
+    id="cocktail-data">
     </div>
+
+    <!-- <section id ="grid"></section> -->
+    <section id="grid">
+        <article class="column">
+        </article>
+        <article class="column">
+        </article>
+        <article class="column">
+        </article>
+        <article class="column">
+        </article>
+        <!-- <article class="column">
+        </article> -->
+    </section>
+    </div>
+    <!-- <footer>
+        <p>Author: Hege Refsnes<br>
+        <a href="mailto:hege@example.com">hege@example.com</a></p>
+    </footer> -->
 
 </body>
 </html>
