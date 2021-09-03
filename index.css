@@ -199,6 +199,17 @@ footer {
         border: 1px solid #ccc;  
     }
 }
+@media screen and (max-width: 768px) {
+    #grid {
+        display: grid;
+        margin-left: 0px;
+        grid-template-columns: repeat(3, 1fr);
+    }
+    img {
+        width: 25vw;
+        height: 25vw;
+    }
+}
 @media screen and (max-width: 600px) {
     #grid {
         display: grid;
@@ -206,8 +217,8 @@ footer {
     }
 
     img {
-        width: 50vw;
-        height: 50vw;
+        width: 25vw;
+        height: 25vw;
     }
 }
 
@@ -223,15 +234,5 @@ footer {
         height: 25vw;
     }
 }
-@media screen and (max-width: 768px) {
-    #grid {
-        display: grid;
-        margin-left: 0px;
-        grid-template-columns: repeat(3, 1fr);
-    }
-    img {
-        width: 25vw;
-        height: 25vw;
-    }
-}
+
 
