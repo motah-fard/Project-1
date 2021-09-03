@@ -198,3 +198,10 @@ function clearItems(){
     // make the cocktail data inner html empty
 
 }
+
+
+function homePage(){
+    clearItems();
+}
+const home = document.querySelector("active");
+home.addEventListener("click", homePage);
